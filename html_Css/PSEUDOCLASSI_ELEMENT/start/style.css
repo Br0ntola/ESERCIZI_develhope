@@ -1,0 +1,37 @@
+blockquote {
+	background-color: rgba(0, 0, 0, .12);
+	padding: 8px;
+	quotes: "\201C" "\201D";
+}
+
+blockquote::before {
+	content: open-quote;
+}
+
+blockquote::after {
+	content: close-quote;
+}
+
+a {
+	color: darkred;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blueviolet;
+}
+
+a:visited {
+	color: red;
+}
+
+p:first-of-type::first-letter {
+	float: left;
+	color: darkred;
+	border: 3px ridge darkgoldenrod;
+	padding: 16px;
+	background-color: gold;
+	margin: 8px;
+}
+
+/*Esercizio in pair con Davide Lodde*/
