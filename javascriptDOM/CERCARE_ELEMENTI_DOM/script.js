@@ -7,7 +7,7 @@ console.log(lastName)
 const age = document.querySelector("#age").value; //con querySelector
 console.log(age)
 
-const persons = [{ name: "Mario", lastName: "Rossi", age: "25" }];
+const persons = { name: "Mario", lastName: "Rossi", age: "25" };
 console.table(persons);
 
 const html = document.documentElement;
