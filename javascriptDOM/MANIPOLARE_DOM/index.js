@@ -1,5 +1,4 @@
 const addProduct = () => {
-  const button = document.querySelector("button");
   const ul = document.querySelector("ul");
   const input = document.querySelector('input');
   const li = document.createElement('li');
