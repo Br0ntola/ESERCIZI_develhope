@@ -8,6 +8,6 @@ crypto.randomBytes(2, (error, buffer) => {
     if (error) {
         console.log(error);
     }
-    const randomId = buffer.toString('bhex') //altri formati base64, utf8
+    const randomId = buffer.toString('bhex');
     console.log(randomId)
 });
